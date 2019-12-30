@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import App from './App/App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render( < App / > , document.getElementById('root'));
+
+// const name = Febriansyah;
+
+// ReactDOM.render(<name/>, document.getElementById('test'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

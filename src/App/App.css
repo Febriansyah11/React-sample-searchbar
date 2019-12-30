@@ -1,0 +1,71 @@
+/* .App {
+    text-align: center;
+} */
+
+.App-header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border: solid 2px gainsboro;
+    background-color: aqua;
+    padding: 2px;
+    width: 1250px;
+    height: 100%;
+    /* justify-content: space-between; */
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+}
+
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes mymove {
+    from {
+        background-color: #34b7f1;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+.content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.15);
+    background-color: #34b7f1;
+    margin: 10px;
+    border-radius: 1%;
+    flex-direction: column;
+    width: 615px;
+}
+
+.border {
+    border: 4px solid rgb(7, 176, 255);
+    padding: 150px 20px 100px;
+}
+
+.border2 {
+    border: 4px solid rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.app {
+    float: left;
+    margin: 5px;
+    width: 615px;
+    height: 1000px;
+}
+
+.App-link {
+    color: #09d309;
+}

@@ -1,0 +1,32 @@
+.person {
+    display: flex;
+    border: solid 1px gainsboro;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.person .data {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    align-items: center;
+    height: 85px;
+    justify-content: flex-start;
+}
+
+.person .data:hover {
+    background-color: gainsboro;
+}
+
+.person .data .gambar {
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+    margin-right: 10px;
+}
